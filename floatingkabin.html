@@ -24,9 +24,11 @@
   img{
     display:inline-block;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     }
     #grid{
-      border: solid;
+      border: none;
       display:grid;
       grid-template-columns: 1fr 2fr;
     }
@@ -37,8 +39,12 @@
       text-align: center;
       font-size: 40px;
     }
+    #mainpage{
+      width: 100%;
+      height: auto;
+    }
     div{
-      border: solid;
+      border:none;
     }
   }
     </style>
@@ -46,6 +52,8 @@
     <div class="header">
       <img src="LOGO.png" alt= "Floating Kabin">
     </div>
+    <center><img id="mainpage" src="hokkaido.jpg" alt="wonderland">
+      <div id="grid"></center>
     <div id="grid">
       <div id=wanderer>Welcome Wanderer!</div>
       <div>
